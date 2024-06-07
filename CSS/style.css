@@ -1,0 +1,19 @@
+.boxes {
+    /* position: relative; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-items: center;
+}
+
+.box {
+    height: 10rem;
+    width: 20rem;
+    padding: 1.5rem;
+    background-color: blue;
+    color: white;
+    border: 10px solid red;
+    display: inline-block;
+    border-radius: 0.4rem;
+    position: relative;
+}
